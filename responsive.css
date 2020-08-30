@@ -1,0 +1,32 @@
+@media(max-width:1200px){
+    .top-wrapper{
+        padding:0 5%;
+    }
+    .top-wrapper a{
+        width:23%;
+    }
+}
+
+@media(max-width:1300px) and ( min-width:1000px){
+    .articles{
+        width:25%;
+    }
+}
+
+@media(max-width:999px){
+    .main{
+        width:83%;
+    }
+    .articles{
+        width:65%;
+        margin-left:25%;
+    }
+
+    .articles a{
+        left:30%;
+    }
+
+    .balloon p::after{
+        left:44.7%;
+    }
+}
