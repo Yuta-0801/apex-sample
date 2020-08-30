@@ -15,11 +15,13 @@
 
 @media(max-width:999px){
     .main{
-        width:83%;
+        width:90%;
+        margin-left:5%;
+        border:none;
     }
     .articles{
-        width:65%;
-        margin-left:25%;
+        width:80%;
+        margin-left:10%;
     }
 
     .articles a{
