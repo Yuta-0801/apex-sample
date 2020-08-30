@@ -3,9 +3,9 @@ $(function(){
     let value=true;
 
     $(".slick-1").slick({
-        speed: 1000,
+        speed: 10,
         autoplay: value,
-        autoplaySpeed:1000,
+        autoplaySpeed:10,
         dots:true,
         vertical:false,
     });
