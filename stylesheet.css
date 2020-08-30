@@ -1,0 +1,285 @@
+body{
+    margin:0;
+    display:none;
+}
+
+
+.header-wrapper{
+    display:inline-block;
+    position: absolute;
+    top:18%;
+    left:17%;
+}
+
+header p,h1{
+    margin:0%;
+}
+
+header h1{
+    font-size:280%;
+}
+
+header p{
+    font-size:smaller;
+    width:88%;
+}
+
+header{
+    height:180px;
+    width:100%;
+    position: relative;
+}
+
+.top-wrapper{
+    width:100%;
+    padding:0 17%;
+    height:40px;
+    background-color: black;
+}
+
+
+.top-wrapper a{
+    display: inline-block;
+    width:16.2%;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    font-size: large;
+    margin-top:6px;
+    padding-top:2px;
+    padding-bottom:2px;
+    transition: all 0.3s;
+    border-radius: 2px;
+}
+
+.top-wrapper a:hover{
+    color:black;
+    background-color:	#F5F5F5;
+    cursor: pointer;
+}
+
+.between{
+    height: 55px;
+    width:66%;
+    margin:0 auto;
+    position: relative;
+}
+
+.between p{
+    position: absolute;
+    bottom:0;
+    margin:0;
+    font-size:small;
+    padding-bottom:3px;
+}
+
+.between a{
+    color:	#4682B4;
+    text-decoration: underline;
+    transition: all 0.3;
+}
+
+.between a:hover{
+    opacity: 0.5;
+}
+
+.between span{
+    opacity:0.7;
+}
+
+.border{
+    height:1px;
+    background-color:	#DCDCDC;
+    width:100%;
+}
+
+.main{
+    width:48%;
+    margin-left:17%;
+    margin-right:0%;
+    border-right:solid 2px 	#DCDCDC;
+    display: inline-block;
+}
+
+
+.topic a{
+    display:block;
+    border-radius: 2px;
+}
+
+.topic .a1{
+    background-color:black;
+    color:white;
+    margin:0;
+    padding-left:5%;
+    font-weight: bold;
+}
+
+.topic .date-wrapper{
+    width:16%;
+    font-size: smaller;
+    margin:20px 0;
+}
+
+.topic .a3{
+    background-color: #F5F5F5;
+    color:black;
+    padding-left: 5%;
+    margin:0;
+}
+
+.topic .a2{
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.ad p{
+    display: inline;
+}
+
+.slick-1{
+    width:80%;
+    margin:0 auto;
+}
+
+
+
+.index p{
+    padding-top:30px;
+}
+
+.index .p-1{
+    color:	#DC143C;
+    font-weight: bold;
+}
+
+.index{
+    width:90%;
+    margin: 0 auto;
+}
+
+.index .p-2{
+    border-top:solid 2px 	#DCDCDC;
+}
+
+
+
+.articles{
+    display: inline-block;
+    width:17%;
+    vertical-align: top;
+    margin-left:1%;
+}
+
+.articles img{
+    height: 90px;
+    width: 90px;
+    display: inline-block;
+}
+
+.article{
+    height: 130px;
+    vertical-align: top;
+    position: relative;
+    padding-top:5%;
+    border-top:solid 1px	#DCDCDC;
+}
+
+.article a{
+    display: inline-block;
+    width:70%;
+    position: absolute;
+    top:10%;
+    left: 39%;
+    color:#696969;
+    transition: all 0.3;
+}
+
+.article a:hover{
+    opacity: 0.6;
+}
+
+.articles .first{
+    border-top:none;
+}
+
+.balloon{
+    height:60px;
+    text-align: center;
+}
+
+.balloon p{
+    padding:7px;
+    border:solid 2px black;
+    font-weight: bold;
+    position: relative;
+}
+
+.balloon p::before{
+    position: absolute;
+    top:100%;
+    left:45%;
+    height: 0;
+    width: 0;
+    border-top:13px solid white;
+    border-left:13px solid transparent;
+    border-right:13px solid transparent;
+    content: "";
+}
+
+.balloon p::after{
+    position: absolute;
+    top:100%;
+    left:44%;
+    height: 0;
+    width: 0;
+    border-style: solid;
+    border-width: 15px 15px 0 15px;
+    border-color: black transparent transparent transparent;
+    content: "";
+    z-index: -1;
+}
+
+.list{
+    font-size:15px;
+    width:90%;
+    margin:0 auto;
+    border:dashed 1px black;
+    background-color:#F0FFFF;
+}
+
+.list p{
+    margin-left:5%;
+    padding:0 5% 0 0;
+    position: relative;
+    text-decoration: underline;
+    cursor: pointer;
+    transition:all 0.2s;
+}
+
+.list h4{
+    position: relative;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.list-top{
+    margin:2% 5%;
+}
+
+.list-contents{
+    margin-left: 10%;
+}
+
+
+
+.list h4{
+    margin:0;
+    padding: 0%;
+    transition:all 0.2s;
+}
+
+.list h4:hover, .list p:hover{
+    opacity:0.8;
+    color:	#1E90FF;
+}
