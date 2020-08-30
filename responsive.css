@@ -15,20 +15,27 @@
 
 @media(max-width:999px){
     .main{
-        width:90%;
+        width:95%;
         margin-left:5%;
         border:none;
     }
     .articles{
-        width:80%;
-        margin-left:10%;
+        width:95%;
+        margin-left:5%;
     }
 
     .articles a{
-        left:30%;
+        left:25%;
+        font-size:x-large;
     }
 
     .balloon p::after{
         left:44.7%;
+    }
+    
+    .balloon{
+        width:50%;
+        font-size:larger;
+        margin:0 auto;
     }
 }
